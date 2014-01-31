@@ -23,7 +23,7 @@ for idx in range(len(g)):
     plate_str = 'Plate:\t'+str(plate_no)
     if plate_str in g[idx]:
         break
-print idx
+print idx,'aha! this is me, the robber!'
 
 def get_bgal_data(data, idx):
     start_idx = idx + 2
